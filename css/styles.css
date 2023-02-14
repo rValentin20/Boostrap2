@@ -31,7 +31,13 @@ footer{
     height: 6rem;
 }
 .altura3{
-    height: 12rem;
+    height: 20rem;
 }.altura4{
     height: 6rem;
+}
+article{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

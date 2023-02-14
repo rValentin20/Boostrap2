@@ -10,31 +10,19 @@ header{
     background-color: beige;
 }
 nav{
-    background-color: brown;
+    background-color: rgb(153, 168, 235);
 }
 section{
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
 }
-article{
-    background-color: orange;
-}
+
 aside{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
 }
 footer{
     background-color: brown;
 }
-.altura1{
-    height: 6rem;
-}
-.altura2{
-    height: 6rem;
-}
-.altura3{
-    height: 20rem;
-}.altura4{
-    height: 6rem;
-}
+
 article{
     height: 60%;
     display: flex;

@@ -12,28 +12,84 @@
   </head>
   <body>
     <div class="container">
-        <header class="row altura1">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <h1>soy header</h1>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">  
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/primeraImagen.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/segundaImagen.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/imagenTres.jpeg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </header>
+        </div>
+
+        
         <nav class="row altura2">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <h1>soy nav</h1>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </nav>
+
+
         <div class="row altura3">
               
                 <section class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
-                    <h1>soy section</h1>
-
-                    <article>
-                        <img src="images/gif40.gif" alt="" height="100%">
-                    </article>
+                
+                        <h1>Avatar</h1>
+                        <p>Está ambientada en el año 2154 y los acontecimientos que narra se desarrollan en Pandora, una luna (y aparentemente la más grande) de un planeta similar a Júpiter llamado Polífemo, habitada por una especie humanoide llamada na'vi, con la que los humanos se encuentran en conflicto debido a que uno de sus clanes está asentado alrededor de un gigantesco árbol que cubre una inmensa veta de un mineral muy cotizado y que supondría la solución a los problemas energéticos de la Tierra: el unobtainium.8​9​ Jake Sully, un marine que quedó paralítico, es seleccionado para participar en el programa Avatar, un proyecto que transporta la mente de los científicos a unos cuerpos artificiales de na'vi para que la comunicación con los nativos resulte así más sencilla.10​ Durante esa búsqueda de confianza entre Jake y los na'vi, Jake debe ser aprobado por la tribu y experimenta todas las relaciones con el bosque, la fauna y la flora que tienen los nativos, junto con sus costumbres y su lengua. A pesar del fin científico del proyecto, el coronel Quaritch, quien dirige la defensa de la base humana en Pandora, convence a Jake para que le proporcione información sobre los nativos en caso de que fuera necesario recurrir a la fuerza para que se marchen. En un principio, Jake cumple profesionalmente su misión, pero se enamora de una de las nativas, Neytiri, y se da cuenta de que estos jamás renunciarán a su tierra, haciendo inevitable un conflicto armado; él deberá decidir de qué lado está.11​</p>
                     
                 </section>
                 <aside class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                    <h2>soy aside</h2>
+                    <img src="/images/poster.avif" alt="" width="100%">
                 </aside>
               
         </div>
